@@ -11,9 +11,11 @@ Therefore you have to measure the filament before the extruder and extrude a spe
 After that you measure again what is left of the filament. The difference can be used to calibrate the esteps of the extruder 
 
 Gcode to set extruder to relative mode
+
 `M83`
 
-Gcode to extract 10 mm filament
+Gcode to extract 10 mm filament with speed of 100
+
 `G1 E10 F100`
 
 Gcode to get the information of the esteps
