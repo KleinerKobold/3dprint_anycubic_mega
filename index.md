@@ -19,14 +19,16 @@ Gcode to extract 10 mm filament with speed of 100
 `G1 E10 F100`
 
 Gcode to get the information of the esteps
-``
+`M503`
+Search for M92
+And take the last value of the esteps
 
 Formula for the the new extruder config
-``
+`<span style="color:blue">new_steps</span> = wanted_extrusion / real_extrusion * current_steps`
 
 
 Gcode to configure the extruder
-``
+`M92 E<span style="color:blue">new_steps</span>`
 
 # Z offset
 
