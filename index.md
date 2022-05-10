@@ -24,11 +24,13 @@ Search for M92
 And take the last value of the esteps
 
 Formula for the the new extruder config
-`<span style="color:blue">new_steps</span> = wanted_extrusion / real_extrusion * current_steps`
+```
+new_steps = wanted_extrusion / real_extrusion * current_steps
+````
 
 
 Gcode to configure the extruder
-`M92 E<span style="color:blue">new_steps</span>`
+`M92 Enew_steps`
 
 # Z offset
 
