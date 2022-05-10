@@ -5,7 +5,7 @@ You will find informaion about my efforts to handle and calibrate my anycubic me
 
 ## How to Calibrate the Printer
 
-# Extruder Steps
+### Extruder Steps
 To calibrate your extruder, you have to extrude filament with the hotend. 
 Therefore you have to measure the filament before the extruder and extrude a specific amount of material. The printer should be heated so you don't damage your printer.
 After that you measure again what is left of the filament. The difference can be used to calibrate the esteps of the extruder 
@@ -32,11 +32,11 @@ new_steps = wanted_extrusion / real_extrusion * current_steps
 Gcode to configure the extruder
 `M92 Enew_steps`
 
-# Z offset
+### Z offset
 
-# Fillament thickness
+### Fillament thickness
 
-# Extrusion multiplyer / Flowrate
+### Extrusion multiplyer / Flowrate
 It's quite easy you just print a cube with one layer without top and bottom with a specific width. Take 0,45 mm width for it.
 Then measure all five walls and take the mean of it.
 ```
