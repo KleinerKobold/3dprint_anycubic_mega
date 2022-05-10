@@ -35,3 +35,10 @@ Gcode to configure the extruder
 # Z offset
 
 # Fillament thickness
+
+# Extrusion multiplyer / Flowrate
+It's quite easy you just print a cube with one layer without top and bottom with a specific width. Take 0,45 mm width for it.
+Then measure all five walls and take the mean of it.
+```
+extrusion_multiplyer = 0.45 / mean_value
+```
