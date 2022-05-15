@@ -7,7 +7,9 @@ You will find informaion about my efforts to handle and calibrate my anycubic me
 
 ### Heat Tower
 You need a heat tower to find the best temperature for your printings. 
-It's quite easy to build a heat tower with [Heat Tower on Thingiverse](https://www.thingiverse.com/thing:2729076). Cura has a Plugin in Extensions -> Post Processing -> Modify Gcode
+It's quite easy to build a heat tower with [Heat Tower on Thingiverse](https://www.thingiverse.com/thing:2729076). Cura has a Plugin in 
+` Extensions -> Post Processing -> Modify Gcode `
+There you have to add a script and use the ChangeAtZ Script.
 
 
 #### Links
